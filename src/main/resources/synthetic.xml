@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<synthetic xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd" xmlns="http://www.xebialabs.com/deployit/synthetic" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+	<type type="sharepoint.Server" extends="powershell.BasePowerShellContainer" description="Sharepoint Server"/>
+
+    <type type="sharepoint.Solution" deployable-type="sharepoint.SolutionSpec" container-type="sharepoint.Server" extends="powershell.ExtensiblePowerShellDeployedArtifact" description="Sharepoint solution (.wsp)">
+        <generate-deployable type="sharepoint.SolutionSpec" extends="powershell.BasePowerShellDeployableFileArtifact" description="A Sharepoint solution (.wsp)"/>
+        <property name="createScript" default="sharepoint/add-and-install-solution.ps1" hidden="true"/>
+        <property name="destroyScript" default="sharepoint/uninstall-and-remove-solution.ps1" hidden="true"/>
+    </type>
+	
+</synthetic>

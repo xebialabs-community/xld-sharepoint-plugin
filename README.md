@@ -21,4 +21,4 @@ In the end, we:
 
 1. Used this post to fix the "local farm" issue from SharePoint: http://community.bamboosolutions.com/blogs/bambooteamblog/archive/2014/01/02/fix-for-the-local-farm-is-not-accessible-cmdlets-with-featuredependencyid-are-not-registered.aspx
 
-. Then, we followed the directions for enabling a multi-hop station (https://docs.xebialabs.com/xl-deploy/how-to/set-up-credssp-for-a-winrm-connection.html)
+2. Then, we followed the directions for enabling a multi-hop station (https://docs.xebialabs.com/xl-deploy/how-to/set-up-credssp-for-a-winrm-connection.html)

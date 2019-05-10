@@ -6,7 +6,7 @@ notifications:
 deploy:
   provider: releases
   api_key:
-    secure: irITEmV4StR21wzupRQGDHgC7E2rdECOnrxkCdcuPSjBgLhwxJWb8hskGzyTcpOkk2u3ldlQUAkG8JxvEiHbcOaV4z/yOwYtSptD49F9dLkZKoqNHr63IvuLgyfy0v+AEFxqiLKh/8IwdrK5pTNpfmsdZIWtd39O9tKWPBISbew=
+    secure: RQ4uRENhSIaRngbulOhcK1mbML4j7Z2ahAw0Hqf5lrmKx0i0DoL4yE/485YOEdfFJuOpwiNKU/iNUv0IVu5reg2qcfoDRRGvD1sw8NETAFU+wSYHWKRFT37XYAzEtPo3BS0CDLfarRwUR5aO9AhqS2UCj6yzBarMPxBwnJoVoms=
   file: build/libs/sharepoint-plugin-1.0.jar
   skip_cleanup: true
   on:
